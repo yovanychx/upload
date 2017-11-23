@@ -2,9 +2,9 @@ version: '2'
 
 services:
     mariadbcons:
-        image: 'mariatpi'
+        image: 'maria'
         build: ./mariadb/.
-        container_name: 'maria'
+        container_name: 'mariass'
         environment: 
         - 'MYSQL_ROOT_PASSWORD=12345'
         - 'MYSQL_DATABASE=analisisf2017'
@@ -13,9 +13,9 @@ services:
         ports:
         - '3306:3306'
     payaraserver: 
-        image: 'payaratpi'
+        image: 'payara'
         build: ./payara/.   
-        container_name: 'payara'
+        container_name: 'payarass'
         depends_on:
         - 'mariadbcons'        
         ports:
