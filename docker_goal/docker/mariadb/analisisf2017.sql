@@ -69,7 +69,7 @@ CREATE TABLE `empresas` (
 
 LOCK TABLES `empresas` WRITE;
 /*!40000 ALTER TABLE `empresas` DISABLE KEYS */;
-INSERT INTO `empresas` VALUES (1,'Confecciones10','C','');
+INSERT INTO `empresas` VALUES (1,'Confecciones10','C',''),(2,'Confecciones10','C','');
 /*!40000 ALTER TABLE `empresas` ENABLE KEYS */;
 UNLOCK TABLES;
 
