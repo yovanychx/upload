@@ -1,5 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `analisisf2017` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `analisisf2017`;
 -- MySQL dump 10.16  Distrib 10.1.25-MariaDB, for Linux (x86_64)
 --
 -- Host: localhost    Database: analisisf2017
