@@ -9,7 +9,7 @@ services:
         - 'MYSQL_ROOT_PASSWORD=12345'
         - 'MYSQL_DATABASE=analisisf2017'
         volumes:
-        - db:/var/lib/mysql
+        - db2:/var/lib/mysql
         ports:
         - '3306:3306'
     payaraserver: 
